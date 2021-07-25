@@ -299,7 +299,7 @@ align-items: center;
 .contact,
 .placeholder{
   border-width: 0.1em;
-  border-color: rgb(62, 196, 71);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
 
 }
