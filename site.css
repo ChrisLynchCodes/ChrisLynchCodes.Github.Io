@@ -297,7 +297,7 @@ align-items: center;
 .about, 
 .projects, 
 .contact,
-.placeholder{
+.gallery{
   border-width: 0.1em;
   border-color: rgb(0, 0, 0);
   border-style: solid;
