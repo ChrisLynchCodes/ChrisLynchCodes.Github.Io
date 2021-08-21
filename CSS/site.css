@@ -1,0 +1,148 @@
+
+
+
+
+* {
+  /* widths/heights take border and padding into account */
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+
+body {
+  /* ensure that the body takes up the entire vertical height of the device with  */
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #2a9d8f;
+}
+
+p{
+  margin: 0.5em 0 0.5em 0;
+}
+
+
+
+.container {
+  max-width: 1000px;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  margin-left: auto;
+  margin-right: auto;
+ 
+} 
+
+
+
+  
+
+main{
+  /* display: flex;
+  flex-direction: column; */
+  padding-top: 64px;
+
+
+
+
+}
+.responsive-image{
+ 
+    width: 100%;
+    height: auto;
+    max-width: 466px;
+}
+
+.about, 
+.projects, 
+.contact,
+.gallery{
+  border-width: 0.1em;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+
+}
+.about{
+background-color: #ffadad;
+} 
+.projects{
+  background-color: #ffd6a5;
+} 
+.contact{
+  background-color: #fdffb6;
+}
+.placeholder{
+  background-color: #caffbf;
+}
+
+
+
+
+
+/* Desktop */
+@media screen and (min-width: 700px){
+ main{
+    
+    display: flex;
+}  
+/* Every child div of the main flex container */
+main > div {
+  
+  border: 1px solid rgb(248, 233, 246);
+  flex: 1;
+}
+/* The second div element of the parent 'main' */
+main > div:nth-of-type(2){
+  flex: 4;
+}
+  
+  }
+#left-column-desktop{
+  background-color: blue;
+}
+#right-column-desktop{
+  background-color: chocolate;
+}
+
+
+
+.columns{
+  border: 3px solid rgb(151, 20, 129);
+  display: flex;
+}
+/* Every child div of the columns container */
+.columns > div{
+  border: 1px solid rgb(248, 233, 246);
+  flex: 0;
+}
+
+/* The second div element of the parent 'columns' */
+.columns > div:nth-of-type(2){
+  flex: 4;
+}
+.print{
+align-items: center;
+}
+/* Mobile first */
+.desktop, 
+.printer{
+  display: none;
+}
+
+/* Print */
+
+@media print {
+  .mobile, .desktop{
+    display: none;
+  }
+
+  .printer{
+    display: block;
+  }
+
+}
+
+
+
+
+
