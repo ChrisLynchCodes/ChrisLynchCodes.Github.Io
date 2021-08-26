@@ -101,7 +101,7 @@ main{
     width: 100%;
     height: auto;
     max-width: 4rem;
-    border-radius: 50%;
+  
 }
 
   /* .about, 
@@ -121,29 +121,34 @@ main{
 /* Desktop */
 @media screen and (min-width: 700px){
   #left-column-desktop{
-    display:block ;
+    display:block;
+    background-color: #2a9d8f;
   }
   #right-column-desktop{
     display: block;
+    background-color: #2a9d8f;
   }
   main{
     
     display: flex;
+    flex-direction: row;
+    padding-top: 64px;
 }  
 /* Every child div of the main flex container */
 main > div {
   
-  /* border: 1px solid rgb(248, 233, 246); */
+  
   flex: 1;
 }
 /* The second div element of the parent 'main' */
 main > div:nth-of-type(2){
   flex: 4;
+  border: 1px solid rgb(218, 56, 196); 
 }
   
   }
 #left-column-desktop{
-  background-color: #2a9d8f;
+  
 }
 #right-column-desktop{
   background-color: #2a9d8f;
