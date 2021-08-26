@@ -55,9 +55,14 @@ main{
   padding-top: 64px;
   
 }
-
-.landing-container{
+.center-column-desktop > section:nth-of-type(odd)
+{ 
   background-color: #161d20;
+  color: #36498f;
+
+}
+.landing-container{
+ 
   padding: 1rem;
   padding-top: 6rem;
   width: 100%;
@@ -73,7 +78,7 @@ main{
   text-align: center;
   font-size: 2rem;
   line-height: 2.5rem;
-  color: #36498f;
+  
 }
 .icon-container{
   display: flex;
@@ -85,22 +90,13 @@ main{
 
 
 
-/* .icon-container-left{
-  display: flex;
-  flex-direction: column;
-
-}
-.icon-container-right{
-  display: flex;
-  flex-direction: column;
-  align-self: flex-end;
-} */
 
 .responsive-icon{
  
     width: 100%;
     height: auto;
     max-width: 4rem;
+    padding-top: 2rem;
   
 }
 
@@ -147,12 +143,7 @@ main > div:nth-of-type(2){
 }
   
   }
-#left-column-desktop{
-  
-}
-#right-column-desktop{
-  background-color: #2a9d8f;
-}
+
 
 
 

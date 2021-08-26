@@ -205,7 +205,8 @@
 
         .footer{
             text-align: center;
-            background-color: #1a665d;
+            background-color: #264653;
+            color: hsl(0, 0%, 85%);
         }
 
         /* Foter End */
