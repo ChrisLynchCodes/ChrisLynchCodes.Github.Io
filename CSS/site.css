@@ -82,11 +82,11 @@ main{
   flex-direction: column;
 }
 .icon-container-main > div:nth-of-type(1){
-  background-color: aliceblue;
+
 
 }
 .icon-container-main > div:nth-of-type(3){
-  background-color: aliceblue;
+ 
 
 }
 
@@ -106,7 +106,7 @@ main{
  
     width: 100%;
     height: auto;
-    max-width: 4rem;
+    max-width: 2rem;
 }
 
   /* .about, 
