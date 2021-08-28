@@ -97,12 +97,12 @@ main{
     display: block;
     background-color: #2a9d8f;
   }
-  main{
+  /* main{
     
     display: flex;
     flex-direction: column;
     padding-top: 64px;
-}  
+}   */
 /* Every child div of the main flex container */
 main > div {
   
